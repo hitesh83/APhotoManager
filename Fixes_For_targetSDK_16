@@ -1,0 +1,42 @@
+1. Elimination of Startup ANR Freezes
+Removed Synchronous EXIF Parsing: Stripped out blocking ExifInterfaceEx calls from bindAndExecInsert and bindAndExecUpdate inside MediaDBRepository.java.
+
+Result: App startup database sync no longer freezes or scans every single image file upfront, preventing Android from triggering Application Not Responding (ANR) crashes.
+
+2. On-Demand Lazy Loading for GPS Coordinates
+Created getOrLoadLatLon(...) Helper: Implemented a robust static helper method inside MediaDBRepository.java that checks the local SQLite cache first. If coordinates are missing (0.0), it fetches and computes them on-the-fly only when needed (e.g., when viewing details or opening the map).
+
+Automatic Caching: Once coordinates are successfully extracted on-demand, they are instantly written back to the local database table (files), making subsequent lookups instantaneous.
+
+3. Bypassing MediaStore Redaction & Fractional EXIF Parsing
+InputStream-Based ExifInterface: Configured the lazy loader to initialize android.media.ExifInterface using content resolver input streams (Context.getContentResolver().openInputStream(...)) instead of direct file paths.
+
+Complex Rational Fraction Support: This approach successfully bypasses modern Android (API 29+) Scoped Storage and MediaStore GPS redaction. It allows Android's native EXIF parser to correctly decode complex fractional coordinate strings (e.g., 18/1,27/1,21754800/10000000) into precise decimal degrees, matching the behavior of the native system photo app.
+
+4. Permissions Setup for Android 10+ (API 29+)
+Manifest Declarations: Added crucial location and media permission requirements to AndroidManifest.xml:
+
+ACCESS_FINE_LOCATION & ACCESS_COARSE_LOCATION
+
+READ_EXTERNAL_STORAGE & READ_MEDIA_IMAGES
+
+ACCESS_MEDIA_LOCATION (explicitly required on Android 10+ to read embedded GPS EXIF tags from media files)
+
+Runtime Authorization Guidelines: Provided implementation logic to request these permissions dynamically at runtime.
+
+### GPS Map and Photo Marker Fix
+
+**Problem:** The map displayed correctly but initially showed no photo markers because GPS latitude and longitude values were missing from the local database for many photos.
+
+**Changes made:**
+
+* Added a background process to read GPS coordinates from photo metadata and update the local database.
+* Added GPS extraction using the existing metadata reader, with Android `ExifInterface` as a fallback.
+* Added diagnostic logging (`GPS_DIAG`) to investigate file access, metadata extraction, and database updates.
+* Updated the map-loading process to perform GPS backfilling before querying for photo markers.
+
+**Testing:** Tested on a device containing more than 32,000 photos. GPS indexing took over five minutes to complete. After the scan, the map displayed the photo markers correctly, and tapping a marker opened the corresponding photo.
+
+**Known limitation:** Initial indexing is slow for large photo libraries. Further optimization of background processing and incremental indexing may be needed.
+
+The changes have been published in a separate branch for review and further development by the original author.
