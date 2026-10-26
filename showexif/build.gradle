@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':fotolib2')
+
+    // Updated SLF4J to a stable modern version
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+    implementation 'org.slf4j:slf4j-simple:1.7.36'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+task fatJar(type: Jar, dependsOn: classes) {
+    manifest.attributes['Implementation-Title'] = 'shoexif'
+    manifest.attributes['Implementation-Version'] = '1.0'
+    manifest.attributes(
+            'Main-Class': 'de.k3b.ShowExif'
+    )
+
+    // Modern Gradle syntax for jar classifiers
+    archiveClassifier.set('jar-with-dependencies')
+
+    // Replaced deprecated configurations.compile with runtimeClasspath
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+
+    exclude 'META-INF/*.DSA', 'META-INF/*.RSA', 'META-INF/*.SF'
+    with jar
+}
+
+artifacts {
+    archives fatJar
+}

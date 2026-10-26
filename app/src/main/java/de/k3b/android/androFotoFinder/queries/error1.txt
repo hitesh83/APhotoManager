@@ -1,0 +1,270 @@
+2026-10-24 10:30:07.631 20686-20686 Zygote                  usap64                               E  SetMemoryProtected process_name_ptr:20686 de.k3b.android.androFotoFinder.debug
+---------------------------- PROCESS STARTED (20686) for package de.k3b.android.androFotoFinder.debug ----------------------------
+2026-10-24 10:30:07.641 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  I  Late-enabling -Xcheck:jni
+2026-10-24 10:30:07.653 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  I  Using generational CollectorTypeCMC GC.
+2026-10-24 10:30:07.657 20686-20686 nativeloader            de....android.androFotoFinder.debug  D  Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2026-10-24 10:30:07.660 20686-20686 ActivityThread          de....android.androFotoFinder.debug  I  Current dynamic renderEngine type=0
+2026-10-24 10:30:07.662 19611-20047 ActivityManagerWrapper  com.mi.android.globallauncher        E  getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=4
+                                                                                                     mainTaskId=70848   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{de.k3b.android.androFotoFinder.debug/de.k3b.android.androFotoFinder.FotoGalleryActivity} }
+                                                                                                     mainTaskId=70714   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=271581184 cmp=ComponentInfo{anddea.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity} }
+                                                                                                     mainTaskId=70653   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.hitesh83.chess/com.hitesh83.chess.OriginalMenu} }
+                                                                                                     mainTaskId=70772   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main} }
+2026-10-24 10:30:07.672 19611-20047 ActivityManagerWrapper  com.mi.android.globallauncher        E  getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=4
+                                                                                                     mainTaskId=70848   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{de.k3b.android.androFotoFinder.debug/de.k3b.android.androFotoFinder.FotoGalleryActivity} }
+                                                                                                     mainTaskId=70714   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=271581184 cmp=ComponentInfo{anddea.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity} }
+                                                                                                     mainTaskId=70653   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.hitesh83.chess/com.hitesh83.chess.OriginalMenu} }
+                                                                                                     mainTaskId=70772   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main} }
+2026-10-24 10:30:07.683 20686-20686 nativeloader            de....android.androFotoFinder.debug  D  Load /data/user/0/de.k3b.android.androFotoFinder.debug/code_cache/startup_agents/5f6d8015-agent.so using system ns (caller=<unknown>): ok
+2026-10-24 10:30:07.685 20686-21663 MiuiDownscaleImpl       de....android.androFotoFinder.debug  D  set override inverted scale : 1.0
+2026-10-24 10:30:07.686 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  W  hiddenapi: DexFile /data/data/de.k3b.android.androFotoFinder.debug/code_cache/.studio/instruments-6c1710de.jar is in boot class path but is not in a known location
+2026-10-24 10:30:07.687 20686-21663 AppScoutStateMachine    de....android.androFotoFinder.debug  D  20686-ScoutStateMachinecreated
+2026-10-24 10:30:07.749 19611-20047 ActivityManagerWrapper  com.mi.android.globallauncher        E  getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=4
+                                                                                                     mainTaskId=70848   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{de.k3b.android.androFotoFinder.debug/de.k3b.android.androFotoFinder.FotoGalleryActivity} }
+                                                                                                     mainTaskId=70714   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=271581184 cmp=ComponentInfo{anddea.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity} }
+                                                                                                     mainTaskId=70653   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.hitesh83.chess/com.hitesh83.chess.OriginalMenu} }
+                                                                                                     mainTaskId=70772   userId=0   windowMode=1   isExcludedFromRecents=false   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main} }
+2026-10-24 10:30:07.772 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  W  Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+2026-10-24 10:30:07.772 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  W  Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+2026-10-24 10:30:07.775 20686-20686 RENDER_TURBO            de....android.androFotoFinder.debug  I  onActivityThreadCreate not in white list, pkg=de.k3b.android.androFotoFinder.debug, type=peridot
+2026-10-24 10:30:07.775 20686-20686 CompatChangeReporter    de....android.androFotoFinder.debug  D  Compat change id reported: 242716250; UID 10741; state: ENABLED
+2026-10-24 10:30:07.809 20686-20686 ActivityThread          de....android.androFotoFinder.debug  D  setEmbeddedParam packageName=de.k3b.android.androFotoFinder.debug processName=de.k3b.android.androFotoFinder.debug isEmbedded=false isIsolated=false
+2026-10-24 10:30:07.875 20686-20686 nativeloader            de....android.androFotoFinder.debug  D  Configuring clns-10 for other apk /data/app/~~4FZ-2ecXctStex83_9UhWg==/de.k3b.android.androFotoFinder.debug-zFj02QdCEW_z_iobkjeYpg==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~4FZ-2ecXctStex83_9UhWg==/de.k3b.android.androFotoFinder.debug-zFj02QdCEW_z_iobkjeYpg==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/de.k3b.android.androFotoFinder.debug
+2026-10-24 10:30:07.877 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  I  AssetManager2(0xb4000074809f1798) locale list changing from [] to [en-IN]
+2026-10-24 10:30:07.878 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  I  AssetManager2(0xb4000074809eb6b8) locale list changing from [] to [en-IN]
+2026-10-24 10:30:07.879 20686-20686 MiuiPreloadClassImpl    de....android.androFotoFinder.debug  E  invoke error.
+2026-10-24 10:30:07.879 20686-20686 MiuiMonitorThread       de....android.androFotoFinder.debug  D  Shared singleton Thread for stability monitor start
+2026-10-24 10:30:07.881 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag vulkan_enhance_pipeline_cache enabled
+2026-10-24 10:30:07.881 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] EnhanceVkPipelineCache is disabled
+2026-10-24 10:30:07.881 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag ddre enabled
+2026-10-24 10:30:07.881 20686-20686 GraphicsEnvironment     de....android.androFotoFinder.debug  V  Currently set values for:
+2026-10-24 10:30:07.881 20686-20686 GraphicsEnvironment     de....android.androFotoFinder.debug  V    angle_gl_driver_selection_pkgs=[com.android.angle, com.linecorp.b612.android, com.campmobile.snow, com.google.android.apps.tachyon]
+2026-10-24 10:30:07.881 20686-20686 GraphicsEnvironment     de....android.androFotoFinder.debug  V    angle_gl_driver_selection_values=[angle, native, native, native]
+2026-10-24 10:30:07.881 20686-20686 GraphicsEnvironment     de....android.androFotoFinder.debug  V  de.k3b.android.androFotoFinder.debug is not listed in per-application setting
+2026-10-24 10:30:07.881 20686-20686 GraphicsEnvironment     de....android.androFotoFinder.debug  V  ANGLE allowlist from config: 
+2026-10-24 10:30:07.881 20686-20686 GraphicsEnvironment     de....android.androFotoFinder.debug  V  de.k3b.android.androFotoFinder.debug is not listed in ANGLE allowlist or settings, returning default
+2026-10-24 10:30:07.881 20686-20686 GraphicsEnvironment     de....android.androFotoFinder.debug  V  Updatable production driver is not supported on the device.
+2026-10-24 10:30:07.882 20686-20686 ActivityThread          de....android.androFotoFinder.debug  D  useGrowthLimitOutExpendMethod invoke error.
+2026-10-24 10:30:07.882 20686-21669 Perf                    de....android.androFotoFinder.debug  I  Connecting to perf service.
+2026-10-24 10:30:07.885 20686-21669 ActivityThread          de....android.androFotoFinder.debug  I  TrafficStats init done
+2026-10-24 10:30:07.886 20686-20686 ResMonitorStub          de....android.androFotoFinder.debug  D  The current process type is: third_party_app, process name is: de.k3b.android.androFotoFinder.debug
+2026-10-24 10:30:07.888 20686-21669 ashmem                  de....android.androFotoFinder.debug  E  Pinning is deprecated since Android Q. Please use trim or other methods.
+2026-10-24 10:30:07.890 20686-21669 ForceDarkHelperStubImpl de....android.androFotoFinder.debug  I  initialize for de.k3b.android.androFotoFinder.debug , ForceDarkAppConfig: null
+2026-10-24 10:30:07.891 20686-21669 nativeloader            de....android.androFotoFinder.debug  D  Load libforcedarkimpl.so using system ns (caller=/system_ext/framework/miui-framework.jar): ok
+2026-10-24 10:30:07.891 20686-21669 HWUI                    de....android.androFotoFinder.debug  D  JNI_OnLoad success
+2026-10-24 10:30:07.891 20686-21669 MiuiForceDarkConfig     de....android.androFotoFinder.debug  I  setConfig density:3.000000, mainRule:0, secondaryRule:0, tertiaryRule:0
+2026-10-24 10:30:07.896 20686-21669 ActivityThread          de....android.androFotoFinder.debug  I  Miui Feature Init done
+2026-10-24 10:30:07.969 20686-20686 k3bFoto-sqlContent      de....android.androFotoFinder.debug  E  Error querying ContentProvider in updateMedaiCopy-source (Fix with AI)
+                                                                                                    java.lang.IllegalArgumentException: Invalid column tags
+                                                                                                    	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:183)
+                                                                                                    	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:153)
+                                                                                                    	at android.content.ContentProviderProxy.query(ContentProviderNative.java:501)
+                                                                                                    	at android.content.ContentResolver.query(ContentResolver.java:1241)
+                                                                                                    	at android.content.ContentResolver.query(ContentResolver.java:1168)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaContentproviderRepositoryImpl.createCursorForQuery(MediaContentproviderRepositoryImpl.java:69)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaContentproviderRepositoryImpl.createCursorForQuery(MediaContentproviderRepositoryImpl.java:51)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaDBRepository$Impl.updateMedaiCopy(MediaDBRepository.java:510)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaContent2DBUpdateService.rebuild(MediaContent2DBUpdateService.java:63)
+                                                                                                    	at de.k3b.android.androFotoFinder.AndroFotoFinderApp.setMediaImageDbReplacement(AndroFotoFinderApp.java:116)
+                                                                                                    	at de.k3b.android.androFotoFinder.SettingsActivity.prefs2Global(SettingsActivity.java:179)
+                                                                                                    	at de.k3b.android.androFotoFinder.AndroFotoFinderApp.onCreate(AndroFotoFinderApp.java:157)
+                                                                                                    	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1392)
+                                                                                                    	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8766)
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2826)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:114)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:274)
+                                                                                                    	at android.os.Looper.loop(Looper.java:369)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:10090)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1137)
+2026-10-24 10:30:07.970 20686-20686 k3bFoto-sqlContent      de....android.androFotoFinder.debug  I  (IllegalArgumentException=Invalid column tags updateMedaiCopy-source de.k3b.android.androFotoFinder.queries.MediaContentproviderRepositoryImpl.createCursorForQuery: (Fix with AI)
+                                                                                                      SELECT _id, date_added, date_modified, _size, datetaken, orientation, duration, media_type, width, height, _data, title, _display_name, mime_type, tags, latitude, longitude 
+                                                                                                    FROM content://media/external/file 
+                                                                                                    WHERE ((((media_type in (1001,1)) OR _data like '%.album'  OR _data like '%.query' ))) 
+                                                                                                    => 0 rows affected ) 
+                                                                                                    java.lang.IllegalArgumentException: Invalid column tags
+                                                                                                    	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:183)
+                                                                                                    	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:153)
+                                                                                                    	at android.content.ContentProviderProxy.query(ContentProviderNative.java:501)
+                                                                                                    	at android.content.ContentResolver.query(ContentResolver.java:1241)
+                                                                                                    	at android.content.ContentResolver.query(ContentResolver.java:1168)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaContentproviderRepositoryImpl.createCursorForQuery(MediaContentproviderRepositoryImpl.java:69)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaContentproviderRepositoryImpl.createCursorForQuery(MediaContentproviderRepositoryImpl.java:51)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaDBRepository$Impl.updateMedaiCopy(MediaDBRepository.java:510)
+                                                                                                    	at de.k3b.android.androFotoFinder.queries.MediaContent2DBUpdateService.rebuild(MediaContent2DBUpdateService.java:63)
+                                                                                                    	at de.k3b.android.androFotoFinder.AndroFotoFinderApp.setMediaImageDbReplacement(AndroFotoFinderApp.java:116)
+                                                                                                    	at de.k3b.android.androFotoFinder.SettingsActivity.prefs2Global(SettingsActivity.java:179)
+                                                                                                    	at de.k3b.android.androFotoFinder.AndroFotoFinderApp.onCreate(AndroFotoFinderApp.java:157)
+                                                                                                    	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1392)
+                                                                                                    	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8766)
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2826)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:114)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:274)
+                                                                                                    	at android.os.Looper.loop(Looper.java:369)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:10090)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1137)
+2026-10-24 10:30:07.986 20686-20686 ImageLoader             de....android.androFotoFinder.debug  E  /storage/emulated/0/DCIM/.thumbCache/journal.tmp: open failed: EPERM (Operation not permitted) (Fix with AI)
+                                                                                                    java.io.FileNotFoundException: /storage/emulated/0/DCIM/.thumbCache/journal.tmp: open failed: EPERM (Operation not permitted)
+                                                                                                    	at libcore.io.IoBridge.open(IoBridge.java:574)
+                                                                                                    	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+                                                                                                    	at java.io.FileOutputStream.<init>(FileOutputStream.java:208)
+                                                                                                    	at com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache.rebuildJournal(DiskLruCache.java:358)
+                                                                                                    	at com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache.open(DiskLruCache.java:250)
+                                                                                                    	at com.nostra13.universalimageloader.cache.disc.impl.ext.LruDiskCache.initCache(LruDiskCache.java:112)
+                                                                                                    	at com.nostra13.universalimageloader.cache.disc.impl.ext.LruDiskCache.<init>(LruDiskCache.java:106)
+                                                                                                    	at de.k3b.android.androFotoFinder.ThumbNailUtils.init(ThumbNailUtils.java:79)
+                                                                                                    	at de.k3b.android.androFotoFinder.AndroFotoFinderApp.onCreate(AndroFotoFinderApp.java:215)
+                                                                                                    	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1392)
+                                                                                                    	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8766)
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2826)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:114)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:274)
+                                                                                                    	at android.os.Looper.loop(Looper.java:369)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:10090)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1137)
+                                                                                                    Caused by: android.system.ErrnoException: open failed: EPERM (Operation not permitted)
+                                                                                                    	at libcore.io.Linux.open(Native Method)
+                                                                                                    	at libcore.io.ForwardingOs.open(ForwardingOs.java:579)
+                                                                                                    	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+                                                                                                    	at libcore.io.ForwardingOs.open(ForwardingOs.java:579)
+                                                                                                    	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:9957)
+                                                                                                    	at libcore.io.IoBridge.open(IoBridge.java:560)
+                                                                                                    	... 19 more
+2026-10-24 10:30:07.986 20686-20686 ImageLoader             de....android.androFotoFinder.debug  W  diskCache(), diskCacheSize() and diskCacheFileCount calls overlap each other
+2026-10-24 10:30:07.986 20686-20686 ImageLoader             de....android.androFotoFinder.debug  W  diskCache() and diskCacheFileNameGenerator() calls overlap each other
+2026-10-24 10:30:07.990 20686-20686 k3bFoto                 de....android.androFotoFinder.debug  I  A Photo Manager 0.8.3.200315-DEBUG created
+2026-10-24 10:30:08.006 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag vulkan_enhance_pipeline_cache enabled
+2026-10-24 10:30:08.006 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] EnhanceVkPipelineCache is disabled
+2026-10-24 10:30:08.006 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag ddre enabled
+2026-10-24 10:30:08.006 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  D  blurUtils, initBackgroundBlurMinInterval processName(de.k3b.android.androFotoFinder.debug), inWhiteLists(0)
+2026-10-24 10:30:08.006 20686-21669 ActivityThread          de....android.androFotoFinder.debug  I  HardwareRenderer preload  done
+2026-10-24 10:30:08.008 20686-21685 DisplayManager          de....android.androFotoFinder.debug  I  Choreographer implicitly registered for the refresh rate.
+2026-10-24 10:30:08.011 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  I  AssetManager2(0xb4000074809eeef8) locale list changing from [] to [en-IN]
+2026-10-24 10:30:08.020 20686-21685 libc                    de....android.androFotoFinder.debug  W  Access denied finding property "vendor.migl.debug"
+2026-10-24 10:30:08.020 20686-21685 libMiGL                 de....android.androFotoFinder.debug  I  EnableDR: 0
+2026-10-24 10:30:08.020 20686-21685 libMiGL                 de....android.androFotoFinder.debug  D  mDFIInterval: -1
+2026-10-24 10:30:08.021 20686-21685 AdrenoGLES-0            de....android.androFotoFinder.debug  I  QUALCOMM build                   : a0053eb399, I31b05c049d
+                                                                                                    Build Date                       : 12/22/25
+                                                                                                    OpenGL ES Shader Compiler Version: E031.45.02.25
+                                                                                                    Local Branch                     : 
+                                                                                                    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.14.3.0.11.00.00.974.116
+                                                                                                    Remote Branch                    : NONE
+                                                                                                    Reconstruct Branch               : NOTHING
+2026-10-24 10:30:08.021 20686-21685 AdrenoGLES-0            de....android.androFotoFinder.debug  I  Build Config                     : S P 16.1.2 AArch64
+2026-10-24 10:30:08.021 20686-21685 AdrenoGLES-0            de....android.androFotoFinder.debug  I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+2026-10-24 10:30:08.021 20686-21685 AdrenoGLES-0            de....android.androFotoFinder.debug  I  Driver Version                   : 0762.36.1
+2026-10-24 10:30:08.021 20686-21685 AdrenoGLES-0            de....android.androFotoFinder.debug  I  Process Name                     : de.k3b.android.androFotoFinder.debug
+2026-10-24 10:30:08.027 20686-21685 AdrenoGLES-0            de....android.androFotoFinder.debug  I  PFP: 0x01310168, ME: 0x00000000
+2026-10-24 10:30:08.030 20686-20686 DesktopModeFlags        de....android.androFotoFinder.debug  D  Toggle override initialized to: OVERRIDE_UNSET
+2026-10-24 10:30:08.030 20686-20686 PhoneWindowStubImpl     de....android.androFotoFinder.debug  V  modifyNavigationBarColor from -16777216 to -1
+2026-10-24 10:30:08.034 20686-20686 ScrollerOp...ionManager de....android.androFotoFinder.debug  D  registerConfigChangedListener
+2026-10-24 10:30:08.037 20686-20686 libc                    de....android.androFotoFinder.debug  W  Access denied finding property "ro.vendor.mi_sf.new_dynamic_refresh_rate"
+2026-10-24 10:30:08.037 20686-20686 SplineOverScroller      de....android.androFotoFinder.debug  D  dynamic params is false
+2026-10-24 10:30:08.038 20686-21685 AdrenoUtils             de....android.androFotoFinder.debug  I  <ReadGpuID:357>: Reading chip ID through GSL
+2026-10-24 10:30:08.038 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 72, height = 72, encodedFormat = 4
+2026-10-24 10:30:08.039 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.039 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 72, height = 72, encodedFormat = 4
+2026-10-24 10:30:08.039 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.041 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 28, height = 84, encodedFormat = 4
+2026-10-24 10:30:08.041 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.042 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 18, height = 18, encodedFormat = 4
+2026-10-24 10:30:08.042 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.042 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 18, height = 18, encodedFormat = 4
+2026-10-24 10:30:08.042 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.042 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 18, height = 18, encodedFormat = 4
+2026-10-24 10:30:08.043 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.044 20686-21685 libEGL                  de....android.androFotoFinder.debug  I  shader cache num entries: 12
+2026-10-24 10:30:08.044 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag vulkan_enhance_pipeline_cache enabled
+2026-10-24 10:30:08.044 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] EnhanceVkPipelineCache is disabled
+2026-10-24 10:30:08.044 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag ddre enabled
+2026-10-24 10:30:08.045 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 48, height = 48, encodedFormat = 4
+2026-10-24 10:30:08.045 20686-21685 SKIA                    de....android.androFotoFinder.debug  D  [Skia] Flag vulkan_enhance_pipeline_cache enabled
+2026-10-24 10:30:08.045 20686-21685 SKIA                    de....android.androFotoFinder.debug  D  [Skia] EnhanceVkPipelineCache is false
+2026-10-24 10:30:08.045 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  MiShaderPrecompile handle de.k3b.android.androFotoFinder.debug, isSksl: 0, isAppInPreCacheList: 0, isGpuVersionChanged: 0, isSkslChanged: 0
+2026-10-24 10:30:08.045 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.049 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 72, height = 72, encodedFormat = 4
+2026-10-24 10:30:08.049 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.050 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 72, height = 72, encodedFormat = 4
+2026-10-24 10:30:08.050 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.050 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 72, height = 72, encodedFormat = 4
+2026-10-24 10:30:08.050 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.051 20686-20686 DecorView               de....android.androFotoFinder.debug  D  updateFreeformOutlineFromActivity, inFreeform=false,inFreeformWindowMode=false
+2026-10-24 10:30:08.054 20686-20686 IconCustomizer          de....android.androFotoFinder.debug  W  getCustomizedIconW 201
+2026-10-24 10:30:08.054 20686-20686 IconCustomizer          de....android.androFotoFinder.debug  I  load icon config path null, valid rect RectF(3.57141, 3.57129, 96.4286, 96.4284), isFullMask false
+2026-10-24 10:30:08.057 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 324, height = 324, encodedFormat = 4
+2026-10-24 10:30:08.058 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.064 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 30, height = 30, encodedFormat = 4
+2026-10-24 10:30:08.064 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.065 20686-20686 ScrollerOp...ionManager de....android.androFotoFinder.debug  D  registerConfigChangedListener
+2026-10-24 10:30:08.067 20686-20686 ScrollerOp...ionManager de....android.androFotoFinder.debug  D  registerConfigChangedListener
+2026-10-24 10:30:08.071 20686-20686 AbsListViewStubImpl     de....android.androFotoFinder.debug  I  de.k3b.android.androFotoFinder.debug, version: 0.8.3.200315-DEBUG, Enable Prefetch: false
+2026-10-24 10:30:08.072 20686-20686 libEGL                  de....android.androFotoFinder.debug  E  call to OpenGL ES API with no current context (logged once per thread)
+2026-10-24 10:30:08.077 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 96, height = 96, encodedFormat = 4
+2026-10-24 10:30:08.077 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.081 20686-20686 Activity                de....android.androFotoFinder.debug  D  Activity = ActivityInfo{f8a3860 de.k3b.android.androFotoFinder.FotoGalleryActivity}, Resume onConfigurationChanged = {1.0 404mcc27mnc [en_IN] ldltr sw407dp w407dp h815dp 480dpi nrml long hdr widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1220, 2712) mAppBounds=Rect(0, 124 - 1220, 2570) mMaxBounds=Rect(0, 0 - 1220, 2712) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mInSplitScreen=false letterBoxed=false foScaled=false isSpecificEmbedded=false embeddingScale=1.0} as.132 s.2 fontWeightAdjustment=0/d/0 themeChanged=2 themeChangedFlags=4096 display=0 extraData = Bundle[{key_var_font_scale=50}] screenType=0/0}
+2026-10-24 10:30:08.090 20686-20686 RenderLite              de....android.androFotoFinder.debug  D  trim renderNode enable: false
+2026-10-24 10:30:08.092 20686-20686 FramePredict            de....android.androFotoFinder.debug  D  FramePredict init: false
+2026-10-24 10:30:08.093 20686-20686 FramePredict            de....android.androFotoFinder.debug  D  init success
+2026-10-24 10:30:08.093 20686-20686 libc                    de....android.androFotoFinder.debug  W  Access denied finding property "vendor.boostfwk.frameprefetcher"
+2026-10-24 10:30:08.093 20686-21698 FramePredict            de....android.androFotoFinder.debug  E  registerContentObserver fail
+2026-10-24 10:30:08.094 20686-20686 otoFinder.debug         de....android.androFotoFinder.debug  D  MiuiProcessManagerServiceStub setSchedFifo
+2026-10-24 10:30:08.094 20686-20686 MiuiProcessManagerImpl  de....android.androFotoFinder.debug  I  setSchedFifo pid:20686, mode:3
+2026-10-24 10:30:08.097 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  TAG_DDRE, CanvasContext::setDdreActivities: 
+2026-10-24 10:30:08.098 20686-20686 ForceDarkHelperStubImpl de....android.androFotoFinder.debug  I  setViewRootImplForceDark: false for GalleryA-->GalleryCursorFragment#1 @100 GalleryCursorAdapter#1@GalleryCursorFragment#1 @100  , reason: AppDarkModeEnable
+2026-10-24 10:30:08.098 20686-20686 FirstFrameSpeedUp       de....android.androFotoFinder.debug  D  bls: [com.xcj.hm.kangfuyixue, jp.co.jibunbank.jibunmain]
+2026-10-24 10:30:08.098 20686-20686 ViewRootImpl            de....android.androFotoFinder.debug  I  de.k3b.android.androFotoFinder.debug/de.k3b.android.androFotoFinder.FotoGalleryActivity use first frame acceleration
+2026-10-24 10:30:08.101 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.101 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.101 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.105 20686-20686 DecorViewImmersiveImpl  de....android.androFotoFinder.debug  D  onAttachedToWindow. pkg: de.k3b.android.androFotoFinder.debug
+2026-10-24 10:30:08.105 20686-20686 ComputilityLevel        de....android.androFotoFinder.debug  I  getComputilityLevel(): 4
+2026-10-24 10:30:08.105 20686-20686 DecorViewImmersiveImpl  de....android.androFotoFinder.debug  D  getWindowType: 1 title:de.k3b.android.androFotoFinder.debug/de.k3b.android.androFotoFinder.FotoGalleryActivity
+2026-10-24 10:30:08.106 20686-20686 MiuiNBIManagerImpl      de....android.androFotoFinder.debug  D  init success, pkgName=de.k3b.android.androFotoFinder.debug mIsNBIEnable=false mDisableVersionCode=-1 mActivityRulesSize=0
+2026-10-24 10:30:08.106 20686-20686 DecorViewImmersiveImpl  de....android.androFotoFinder.debug  D  isNBIEnable=false
+2026-10-24 10:30:08.107 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.107 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.107 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.107 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.119 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.119 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.119 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.127 20686-20686 VRI[FotoGa...yActivity] de....android.androFotoFinder.debug  D  vri.Setup new sync=wmsSync-VRI[FotoGalleryActivity]#0
+2026-10-24 10:30:08.146 20686-20686 VRI[FotoGa...yActivity] de....android.androFotoFinder.debug  D  vri.reportDrawFinished 0 0 Rect(0, 0 - 1220, 2712)
+2026-10-24 10:30:08.146 20686-20686 NativeTurboSchedManager de....android.androFotoFinder.debug  I  Load libmiui_runtime
+2026-10-24 10:30:08.147 20686-20686 Choreographer           de....android.androFotoFinder.debug  I  first vsync insert message into MessageQueue Head
+2026-10-24 10:30:08.149 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag vulkan_enhance_pipeline_cache enabled
+2026-10-24 10:30:08.149 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] EnhanceVkPipelineCache is disabled
+2026-10-24 10:30:08.149 20686-21685 HWUI                    de....android.androFotoFinder.debug  D  [HWUI] Flag ddre enabled
+2026-10-24 10:30:08.151 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 96, height = 96, encodedFormat = 4
+2026-10-24 10:30:08.151 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.152 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 2, height = 2, encodedFormat = 4
+2026-10-24 10:30:08.152 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.156 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 96, height = 96, encodedFormat = 4
+2026-10-24 10:30:08.156 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.162 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 96, height = 96, encodedFormat = 4
+2026-10-24 10:30:08.162 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.163 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 64, height = 64, encodedFormat = 4
+2026-10-24 10:30:08.163 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.169 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 96, height = 96, encodedFormat = 4
+2026-10-24 10:30:08.169 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.171 20686-20686 HWUI                    de....android.androFotoFinder.debug  D  ImageDecoder_nDecodeBitmap: width = 96, height = 96, encodedFormat = 4
+2026-10-24 10:30:08.171 20686-20686 HWUI                    de....android.androFotoFinder.debug  W  Image decoding logging dropped!
+2026-10-24 10:30:08.180 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.180 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.180 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.186 20686-20686 HandWritingStubImpl     de....android.androFotoFinder.debug  I  refreshLastKeyboardType: 1
+2026-10-24 10:30:08.186 20686-20686 HandWritingStubImpl     de....android.androFotoFinder.debug  I  getCurrentKeyboardType: 1
+2026-10-24 10:30:08.193 20686-20686 InsetsController        de....android.androFotoFinder.debug  D  hide(ime(), fromIme=false)
+2026-10-24 10:30:08.193 20686-20686 ImeTracker              de....android.androFotoFinder.debug  I  de.k3b.android.androFotoFinder.debug:f4906bf7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-24 10:30:08.198 20686-20686 HandWritingStubImpl     de....android.androFotoFinder.debug  I  getCurrentKeyboardType: 1
+2026-10-24 10:30:08.211 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.211 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.211 20686-20686 InsetsSource            de....android.androFotoFinder.debug  W  Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+2026-10-24 10:30:08.510 20686-21649 otoFinder.debug         de....android.androFotoFinder.debug  I  Compiler allocated 6807KB to compile void android.view.ViewRootImpl.performTraversals()

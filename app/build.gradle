@@ -1,0 +1,106 @@
+plugins {
+    id 'com.android.application'
+    id 'maven-publish'
+}
+
+android {
+    // Required for AGP 8.0+
+    namespace 'de.k3b.android.androFotoFinder'
+
+    compileSdk 34 // or 35
+
+    defaultConfig {
+        applicationId 'de.k3b.android.androFotoFinder'
+
+        minSdk 24       // Android 5.0 Lollipop (API 21) baseline for Gradle 8 / AndroidX
+        targetSdk 36    // Match compileSdk
+
+        versionCode 47
+        versionName '0.8.3.200315'
+    }
+    buildFeatures {
+        buildConfig = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-DEBUG"
+        }
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lint {
+        disable 'MissingTranslation', 'ValidFragment', 'ContentDescription', 'ExpiredTargetSdkVersion'
+        abortOnError false
+    }
+}
+
+// task to auto-increment version code
+import java.util.regex.Pattern
+task('increaseVersionCode').doLast({
+    def buildFile = file("build.gradle")
+    def pattern = Pattern.compile("versionCode\\s+(\\d+)")
+    def manifestText = buildFile.getText()
+    def matcher = pattern.matcher(manifestText)
+    matcher.find()
+    def versionCode = Integer.parseInt(matcher.group(1))
+    def manifestContent = matcher.replaceAll("versionCode " + ++versionCode)
+    buildFile.write(manifestContent)
+})
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.slf4j:slf4j-api:1.7.36@jar'
+    testImplementation 'org.slf4j:slf4j-simple:1.7.36'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':fotolib2')
+
+    // GeoHelper & UI components via JitPack
+    implementation 'com.github.k3b:k3b-geoHelper:1.1.5'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.github.k3b:PhotoView:v1.2.6.k3b-7-SNAPSHOT'
+
+    // Modern AndroidX Support (Replaced legacy com.android.support:support-v4:21.0.2)
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+
+    // Exif support
+    implementation ('com.drewnoakes:metadata-extractor:2.10.1') { transitive = false }
+    implementation 'com.adobe.xmp:xmpcore:5.1.2'
+
+    // osmdroid & mapsforge
+    implementation 'org.osmdroid:osmdroid-android:6.1.14'
+    implementation ('org.osmdroid:osmdroid-mapsforge:6.1.14')
+
+    implementation 'org.mapsforge:mapsforge-map-android:0.18.0'
+    implementation 'org.mapsforge:mapsforge-map:0.18.0'
+    implementation 'org.mapsforge:mapsforge-themes:0.18.0'
+
+    //implementation 'org.slf4j:slf4j-api:1.7.36@jar'
+    //implementation 'eu.lp0.slf4j:slf4j-android:1.7.36-1@jar'
+    implementation 'org.slf4j:slf4j-android:1.7.36'
+    // Zip libraries
+    implementation('com.github.k3b.ToGoZip:libK3bZip:L2.1.23')  { transitive = false }
+    implementation('com.github.k3b.ToGoZip:libK3bAndroidZip:L2.1.23')  { transitive = false }
+
+    testImplementation('org.powermock:powermock-api-mockito2:2.0.9')
+    testImplementation('org.powermock:powermock-module-junit4:2.0.9')
+    // Correct AndroidX Test dependencies
+    androidTestImplementation 'androidx.test:runner:1.5.0'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
+    androidTestImplementation 'androidx.test:core:1.5.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+
+}
