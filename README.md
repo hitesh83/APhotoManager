@@ -1,10 +1,10 @@
-targetSDK_36 Brach is taking care of old api blocked starting Android 10, this branch tested on Android 16, this branch is still WIP. - Hitesh83
+targetSDK_36 Brach is taking care of old api blocked starting Android 10, this branch tested on Android 16, this branch is still WIP. - Hitesh83  [read file - Fixes_For_targetSDK_16]
 
 Starting with android-10 google has removed the capability to get geo data from the media database so the main purpose of this app: show/find photos through a geographic map is gone forever.
 
 I spend several months of work to implement a shadow copy of the media database but in the end a gave up.
 
-APhotoManger is dead :-(
+APhotoManger is ~~dead :-( ~~
 
 RIP
 
